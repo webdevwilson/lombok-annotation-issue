@@ -1,0 +1,6 @@
+lombok-annotation-issue
+
+This project isolates an issue with Project Lombok.  The build will fail when lombok is added to the dependencies.  
+Remove the lombok dependency and the build is fine.
+
+I have tested this with the latest release (0.11.0) as well as 0.10.8 with maven 2.2.1 and maven 3.0.3
